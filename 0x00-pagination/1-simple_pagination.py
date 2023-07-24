@@ -52,4 +52,4 @@ class Server:
         if page > highest_page_no:
             return []
 
-        return dataset[idx_range[0] : idx_range[1]]
+        return dataset[idx_range[0]:idx_range[1]]
