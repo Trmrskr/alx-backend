@@ -47,9 +47,9 @@ class Server:
         dataset_length = len(dataset)
         idx_range = index_range(page, page_size)
 
-        highest_page_no = math.ceil(dataset_length/page_size)
+        total_pages = math.ceil(dataset_length/page_size)
 
-        if page > highest_page_no:
+        if page > total_pages:
             return []
 
         return dataset[idx_range[0]:idx_range[1]]
