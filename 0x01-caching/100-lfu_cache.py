@@ -23,7 +23,7 @@ class LFUCache(BaseCaching):
         """
         if key is not None and item is not None:
             cache_data_len = len(self.cache_data)
-            if cache_data_len >= self.MAX_ITEMS:
+            if cache_data_len >= BaseCaching.MAX_ITEMS:
                 # when max capacity of cache has been exceeded
                 if key in self.__order:
                     # Simply delete from order
