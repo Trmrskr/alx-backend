@@ -27,7 +27,7 @@ def helloWorld() -> str:
     '''
         Render template for Babel usage.
     '''
-    return render_template('4-index.html')
+    return render_template('3-index.html')
 
 
 @babel.localeselector
