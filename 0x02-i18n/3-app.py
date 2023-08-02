@@ -4,7 +4,7 @@
 '''
 
 from flask_babel import Babel
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder='templates')
 babel = Babel(app)
@@ -27,7 +27,7 @@ def helloWorld() -> str:
     '''
         Render template for Babel usage.
     '''
-    return render_template('0-index.html')
+    return render_template('3-index.html')
 
 
 @babel.localeselector
