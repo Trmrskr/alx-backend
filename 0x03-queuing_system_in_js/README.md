@@ -43,4 +43,4 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * [ ] 13. Can I have a seat?
 
 ## Software engineer
-[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
+[T. S. Alale](https://www.javierandresgp.com)
